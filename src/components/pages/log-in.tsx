@@ -73,7 +73,7 @@ const LogIn = () => {
                 className="w-full max-w-2xs sm:max-w-sm pt-3 mx-auto"
             >
                 <CarouselContent>
-                    {meeImage.map((mee, index) => (
+                    {meeImage.map((mee) => (
                         <CarouselItem key={mee.id}>
                             <div className="p-1">
                                 <Card className="p-0 overflow-hidden">
