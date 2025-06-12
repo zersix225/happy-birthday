@@ -102,7 +102,7 @@ const Home = () => {
                 </div>
             </motion.div>
             <section className="flex flex-col justify-center items-center min-h-screen">
-                {!expiryTime ? (
+                {expiryTime ? (
                     <>
                         <h1 className="md:text-5xl font-bold text-white md:pb-16 text-center text-3xl pb-10">Count your birthday 🎂</h1>
                         <div className="grid md:grid-flow-col gap-5 text-center auto-cols-max">
