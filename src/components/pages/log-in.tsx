@@ -3,7 +3,6 @@
 import {
     InputOTP,
     InputOTPGroup,
-    InputOTPSeparator,
     InputOTPSlot,
 } from "@/components/ui/input-otp"
 import {
@@ -22,6 +21,7 @@ import {
     CarouselPrevious,
     type CarouselApi,
 } from "@/components/ui/carousel"
+import Image from "next/image"
 import { Button } from '@/components/ui/button'
 import { toast } from "sonner"
 import { useState, useEffect } from "react"
@@ -77,9 +77,11 @@ const LogIn = () => {
                         <CarouselItem key={mee.id}>
                             <div className="p-1">
                                 <Card className="p-0 overflow-hidden">
-                                    <img
+                                    <Image
                                         src={mee.url}
                                         alt={mee.id}
+                                        width={300}
+                                        height={300} 
                                         className="object-cover w-full h-full aspect-square"
                                     />
                                 </Card>
