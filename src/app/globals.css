@@ -556,7 +556,7 @@
   .stars2:after {
     content: "";
     position: absolute;
-    top: 2000px;
+    top: 0px;
     width: 4px;
     height: 4px;
     background: transparent;
