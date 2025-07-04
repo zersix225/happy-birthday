@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b4a91004-44dc-4228-a89f-352d3826995a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/log-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/log-in.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,18 +16,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;zersix225&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/zersix225/happy-birthday.git&quot;,
-    &quot;accountId&quot;: &quot;8c6828fe-0b09-4ee6-b785-18fae44ba012&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -100,9 +85,7 @@
       <workItem from="1749394472613" duration="19828000" />
       <workItem from="1749460265348" duration="14237000" />
       <workItem from="1749568805919" duration="211000" />
-      <workItem from="1749656586886" duration="10497000" />
-      <workItem from="1751475430192" duration="556000" />
-      <workItem from="1751660331885" duration="2934000" />
+      <workItem from="1749656586886" duration="7772000" />
     </task>
     <servers />
   </component>
