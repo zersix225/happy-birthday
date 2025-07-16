@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a91004-44dc-4228-a89f-352d3826995a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/log-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/log-in/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/log-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/log-in.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zersix225"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zersix225/happy-birthday.git",
+    "accountId": "8c6828fe-0b09-4ee6-b785-18fae44ba012"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -86,6 +99,7 @@
       <workItem from="1749460265348" duration="14237000" />
       <workItem from="1749568805919" duration="211000" />
       <workItem from="1749656586886" duration="7772000" />
+      <workItem from="1752564534166" duration="3870000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,7 @@ import { Roboto } from 'next/font/google'
 import Layout from '@/components/layout/layout'
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner"
+import {Suspense} from "react";
 
 const roboto = Roboto({subsets: ['latin']});
 
@@ -19,8 +20,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.className}>
       <body>
-        <Layout>{children}</Layout>
-        <Toaster />
+        <Suspense fallback={
+          <div className="min-h-screen flex items-center justify-center">
+            <span className="loading loading-spinner loading-sm"></span>
+          </div>
+        }>
+          <Layout>{children}</Layout>
+          <Toaster />
+        </Suspense>
       </body>
     </html>
   );
