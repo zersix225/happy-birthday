@@ -45,7 +45,7 @@ const LogIn = () => {
     const [api, setApi] = useState<CarouselApi>()
     const [current, setCurrent] = useState(0)
     const [count, setCount] = useState(0)
-    const [show, setShow, removeShow] = useLocalStorage(key,  initialValue, {initializeWithValue: false})
+    const [show, setShow] = useLocalStorage(key,  initialValue, {initializeWithValue: false})
     const meeImage: Array<{id: string, url: string}> = [
         { id: "image1", url: "/1.jpg" },
         { id: "image2", url: "/2.JPG" },
