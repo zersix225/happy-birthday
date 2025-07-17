@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react'
 import { CircleChevronDown } from 'lucide-react';
 import { Button } from "@/components/ui/button"
 import { useRouter } from 'next/navigation';
+import Img from 'next/image';
 
 const Home = () => {
     const [expiryTime , setExpiryTime] = useState(false);
@@ -114,7 +115,7 @@ const Home = () => {
                     </>
                 ) : (
                     <div>
-                        <img
+                        <Img
                             alt="gif"
                             src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"
                         />

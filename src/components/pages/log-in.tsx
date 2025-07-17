@@ -154,7 +154,7 @@ const LogIn = () => {
                 </Card> :
                 <Drawer>
                     <DrawerTrigger asChild>
-                        <Button>Let's see message</Button>
+                        <Button>Let&apos;s see message</Button>
                     </DrawerTrigger>
                     <DrawerContent>
                         <div className="mx-auto w-full max-w-sm">
@@ -167,9 +167,9 @@ const LogIn = () => {
                                     <Card>
                                         <CardContent>
                                             Hi, Mimie. This is ur future husband. Just kidding lol.
-                                            How about this website is it good? It's ur 19th birthday. Sooo
+                                            How about this website is it good? It&apos;s ur 19th birthday. Sooo
                                             I wish u happiness, may u meet good things and good friends, get grade A all subjects,
-                                            and feel free to me if u have any question. And i'll always be ur biggest support for ever
+                                            and feel free to me if u have any question. And i&apos;ll always be ur biggest support for ever
                                             <div className="text-right mt-3">
                                                 From Tak.💖
                                             </div>
