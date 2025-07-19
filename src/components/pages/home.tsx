@@ -116,6 +116,9 @@ const Home = () => {
                         <Img
                             alt="gif"
                             src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"
+                            width={350}
+                            height={270}
+                            unoptimized={true}
                         />
                         <div className="grid grid-cols justify-center mt-6">
                             <Button onClick={() => {
