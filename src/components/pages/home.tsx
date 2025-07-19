@@ -17,9 +17,7 @@ const Home = () => {
     const router = useRouter()
     
     const countDownTimer = () => {
-        const date_future = new Date(
-            Date.UTC(2025, 6, 20, 0, 0, 0),
-        ).getTime();
+        const date_future = new Date(2025, 6, 20, 0, 0, 0).getTime();
         
         const date_now: number = new Date().getTime();
     
